@@ -1,0 +1,26 @@
+[package]
+name = "rdgnru-lib"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+authors = ["rdgn ru"]
+description = "A small, dependency-free utility library for Rust projects."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["rdgnru", "utility", "library", "slug"]
+categories = ["development-tools", "text-processing"]
+include = [
+    "src/**/*",
+    "examples/**/*",
+    "tests/**/*",
+    "Cargo.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "PUBLISHING.md",
+    "LICENSE-MIT",
+    "LICENSE-APACHE",
+]
+
+[lib]
+name = "rdgnru_lib"
+path = "src/lib.rs"
